@@ -37,10 +37,10 @@ def yellow(df, index, cols): # Los inputs son el dataframe, una lista de índice
    
 def firstglance(df):
     
-    print("Shape:",df.shape)
+    display(df.head())
+    print("\nShape:",df.shape)
     print("\nNull values count:\n")
     print(df.isna().sum())
     print("\nTable info:\n")
     display(df.info())
-    print("\nHead:\n")
-    display(df.head())
+
