@@ -18,7 +18,6 @@ def nanplot(df):
     plt.show()
 
     
-    
 # Resaltado de celdas en un dataframe
     
 def yellow(df, index, cols): # Los inputs son el dataframe, una lista de índices y una lista de columnas
