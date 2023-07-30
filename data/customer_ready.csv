@@ -1,2 +1,2 @@
-cust_id,name,sex,age,phone,mail,postal
+id,name,sex,age,phone,mail,postal
 1,JASON_BLUE,female,29,+34 675879554,jbluecoulds@gmail.com,28766

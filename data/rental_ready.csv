@@ -1,0 +1,2 @@
+id,customer_id,inventory_id,staff_id,rental_time,rental_date,return_date
+1,130,367,1,1,2005-05-24 22:53:30,2005-05-26 22:04:30

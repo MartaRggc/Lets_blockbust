@@ -1,2 +1,2 @@
-,rental_id,customer_id,film_id,inventory_id,staff_id,rental_time,rental_date,return_date
-0,1,130,1,367,1,1,2005-05-24 22:53:30,2005-05-26 22:04:30
+rental_id,customer_id,film_id,inventory_id,staff_id,rental_time,rental_date,return_date
+1,130,1,367,1,1,2005-05-24 22:53:30,2005-05-26 22:04:30
