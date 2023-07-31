@@ -174,7 +174,6 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `blockbuster`.`rental` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `rental_time` INT NULL,
   `rental_date` DATETIME NULL,
   `return_date` DATETIME NULL,
   `inventory_id` INT NOT NULL,
@@ -4446,9 +4445,9 @@ INSERT INTO updates (tab, last_update) VALUES ('language','2006-02-15 05:02:19.0
 INSERT INTO updates (tab, last_update) VALUES ('rental','2006-02-15 21:30:53.000000');
 INSERT INTO updates (tab, last_update) VALUES ('inventory','2006-02-15 05:09:17.000000');
 INSERT INTO updates (tab, last_update) VALUES ('category','2006-02-15 04:46:27.000000');
-INSERT INTO updates (tab, last_update) VALUES ('staff','2023-07-31 02:46:16.822367');
-INSERT INTO updates (tab, last_update) VALUES ('customers','2023-07-31 02:46:16.823556');
-INSERT INTO updates (tab, last_update) VALUES ('actorfilm','2023-07-31 02:46:16.824501');
+INSERT INTO updates (tab, last_update) VALUES ('staff','2023-07-31 12:46:19.818559');
+INSERT INTO updates (tab, last_update) VALUES ('customers','2023-07-31 12:46:19.819851');
+INSERT INTO updates (tab, last_update) VALUES ('actorfilm','2023-07-31 12:46:19.821629');
 INSERT INTO staff (name, phone, mail) VALUES ('JASON_BLUE','+34 675879554','jbluecoulds@gmail.com');
 INSERT INTO customer (name, sex, age, phone, mail, postal) VALUES ('JASON_BLUE','female',29,'+34 675879554','jbluecoulds@gmail.com',28766);
-INSERT INTO rental (rental_time, rental_date, return_date, inventory_id, customer_id, staff_id) VALUES (1,'2005-05-24 22:53:30','2005-05-26 22:04:30',1,1,1);
+INSERT INTO rental (rental_date, return_date, inventory_id, customer_id, staff_id) VALUES ('2005-05-24 22:53:30','2005-05-26 22:04:30',1,1,1);
